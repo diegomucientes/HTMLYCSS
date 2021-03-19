@@ -1,0 +1,52 @@
+.main-grid{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns:repeat(5,1fr);
+    height: 460px;
+    width: 620px;
+    background-color: peachpuff;
+    padding-left: 10px;
+    padding-top: 20px;
+    gap:1px;
+    position: fixed;
+}
+img{
+    width: 80px;
+    height:80px;
+    border:2px solid black;
+    padding:15px 15px 10px 15px;
+}
+h1{
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.caja{
+    position: absolute;
+    
+}
+.out{
+    width:40px;
+    height:40px;
+    margin-left:60px;
+    margin-top: 30px;
+    display:block;
+    
+}
+body{
+    margin-top: -20px;
+}
+.out1{
+    width:40px;
+    height:40px;
+    margin-left:500px;
+    margin-top: -75px;
+    display: block;
+
+    
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
